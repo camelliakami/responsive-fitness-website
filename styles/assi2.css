@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* shared style */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 100px;
+}
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.display-flex{
+    display: flex;
+}
+/* dark 02 */
+.text-gray{
+    color: #FFFFFF;
+}
+/* dark 03 */
+.text-light-gray{
+    color: #727272;
+}
+.bg-light{
+    background-color: #111111;
+}
+.btn-primary{
+    background-color: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-right: 10px;
+    /* background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none; */
+}
+.btn-primary1{
+    background-color: #111111;
+    color: white;
+    padding: 10px 20px;
+    border-color: #FFFFFF;
+    margin-right: 10px;
+}
+.btn-primary2{
+    background-color: #110d0d;
+    color: white;
+    max-width: 200px;
+    padding: 20px 25px;
+    /* font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px; */
+    border: none;
+    margin-right: 300px;
+}
+
+
+/* header styles */
+
+/* navbar related styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    color: #E6533C;
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-left: 70px;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-er-link{
+    margin-right: 100px;
+}
+.nav-link{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.home{
+    background-color: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+
+}
+.navbar{
+    max-width: 1440px;
+    margin: 0, auto;
+    align-items: center;
+}
+.banner{
+ display: flex;
+ flex-direction: row;
+
+}
+/* banner related styles */
+.banner-content{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-weight: 700px;
+    font-size: 4rem;
+}
+.banner-image{
+    max-width: 1000px;
+    align-items: center;
+    padding-left: 150px;
+    margin-right: 150px;
+}
